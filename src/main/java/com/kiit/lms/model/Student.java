@@ -9,6 +9,9 @@ import javax.persistence.Id;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import lombok.Builder;
+
+@Builder
 @Cacheable
 @Entity
 @Cache(usage = CacheConcurrencyStrategy.READ_ONLY)

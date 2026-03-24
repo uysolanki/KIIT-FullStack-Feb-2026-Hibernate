@@ -17,6 +17,8 @@
 		<property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.internal.EhcacheRegionFactory</property>	
 		
 		<mapping class="com.kiit.lms.model.Student"/>
+		<mapping class="com.kiit.lms.model.State"/>
+		<mapping class="com.kiit.lms.model.ChieMinister"/>
 	</session-factory>
 </hibernate-configuration>
 	
